@@ -76,7 +76,7 @@ def quit_app(icon=None, item=None):
 # ---------------------- GUI Layout -------------------------
 window = tk.Tk()
 window.title("Teams Active Bot")
-window.geometry("320x200")
+window.geometry("320x220")
 
 tk.Label(window, text="Mouse Move Interval (seconds)").pack(pady=5)
 timer_entry = tk.Entry(window)
